@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Top-level configuration
+  "name": "simple-api-deployment",
+  "main": "src/index.ts",
+  // Set this to today's date
+  "compatibility_date": "2026-02-18",
+  "workers_dev": true
+}
