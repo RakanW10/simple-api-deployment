@@ -12,4 +12,7 @@ app.get("/hello/:name", (c) => {
   return c.text(`Hello ${name}!`);
 });
 
-export default app;
+export default {
+  fetch: app.fetch,
+  port: process.env.PORT ?? 3000,
+};
